@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <Flex justifyContent={"space-between"} p={3} alignItems={"center"}>
         <Image
-          src="React_ChatBot/logo.jpeg"
+          src="./React_ChatBot/logo.jpeg"
           borderRadius={"4xl"}
           width={"150px"}
           alt="logo-picture"
@@ -42,7 +42,7 @@ const Home = () => {
           <Heading size="4xl" marginBottom={4} marginRight={3}>
             Welcome to React ChatBot!
           </Heading>
-          <Image src="React_ChatBot/chatlogo.png" border={'none'} borderRadius={'2rem'} width={'35px'}/>
+          <Image src="./React_ChatBot/chatlogo.png" border={'none'} borderRadius={'2rem'} width={'35px'}/>
 
           </Flex>
           <Text fontSize='2xl' marginBottom={2}>

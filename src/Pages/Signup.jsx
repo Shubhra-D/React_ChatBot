@@ -69,7 +69,7 @@ const Signup = () => {
       >
         <VStack p={4} marginTop={3}>
           <Image
-            src="React_ChatBot/chatlogo.png"
+            src="./React_ChatBot/chatlogo.png"
             alt="logo"
             border={"none"}
             borderRadius={"2rem"}
