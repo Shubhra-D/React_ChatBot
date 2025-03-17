@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "mock-firebase-ca5fa-990ee",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

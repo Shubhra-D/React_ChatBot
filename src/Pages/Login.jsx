@@ -29,11 +29,11 @@ const Login = () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       login();
+      navigate('/chatbot')
     } catch (err) {
       setError(err.message);
     }
     setLoading(false);
-    navigate('/chatbot')
   };
   //google Login
   const handleGoogleLogin = async () => {
@@ -42,11 +42,12 @@ const Login = () => {
     try {
       await signInWithPopup(auth, provider);
       login();
+      navigate('/chatbot')
     } catch (err) {
       setError(err.message);
     }
     setLoading(false);
-    navigate('/chatbot')
+   
   };
 
   return (

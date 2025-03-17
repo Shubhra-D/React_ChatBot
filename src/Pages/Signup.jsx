@@ -35,11 +35,11 @@ const Signup = () => {
       );
       await updateProfile(userCredentials.user, { displayName: username });
       login();
+      navigate('/chatbot')
     } catch (err) {
       setError(err.message);
     }
     setLoading(false);
-    navigate('/chatbot')
   };
   //Google Login
   const handleGoogleLogin = async () => {
@@ -51,11 +51,11 @@ const Signup = () => {
         await updateProfile(result.user, { displayName: username });
       }
       login();
+      navigate('/chatbot')
     } catch (err) {
       setError(err.message);
     }
     setLoading(false);
-    navigate('/chatbot')
   };
 
   return (
